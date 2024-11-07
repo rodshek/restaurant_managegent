@@ -1,0 +1,30 @@
+# Ignore envs, build, dist, e arquivos de cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.dylib
+
+# Pastas de ambientes virtuais
+venv/
+env/
+*.egg-info/
+
+# Arquivos de build e distribuição
+build/
+dist/
+*.spec
+
+# Arquivos de sistema
+.DS_Store
+Thumbs.db
+
+# Configurações do IDE
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Arquivo de dependências (pode ser incluído se você quiser)
+# requirements.txt
